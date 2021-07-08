@@ -25,19 +25,19 @@ from userge.utils import get_response
 
 
 @userge.on_cmd(
-    "flameos",
+    "gei",
     about={
         "header": "kangs stickers or creates new ones",
         "flags": {"-s": "without link", "-d": "without trace"},
         "usage": "Reply {tr}kang [emoji('s)] [pack number] to a sticker or "
         "an image to kang it to your userbot pack.",
         "examples": [
-            "{tr}flameos",
-            "{tr}flameos -s",
-            "{tr}flameos -d",
-            "{tr}flameos 🔥",
-            "{tr}flameos 2",
-            "{tr}flameos 🔥 2",
+            "{tr}gei",
+            "{tr}gei -s",
+            "{tr}gei -d",
+            "{tr}gei 🔥",
+            "{tr}gei 2",
+            "{tr}gei 🔥 2",
         ],
     },
     allow_channels=False,
